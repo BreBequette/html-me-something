@@ -1,0 +1,115 @@
+/* Global styles */
+h1, h2, h3, h4 {
+    padding: 0;
+    margin: 0;
+}
+img {
+    max-width: 300px;
+    /* float: left; */
+}
+
+html {
+    background-color: #F9EBEA;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 3.3em;
+    color: #0A6464;
+}
+
+h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.5em;
+    color: #2D9E9E;
+}
+
+h3 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 2em;
+    color: #0A6464;
+}
+
+h4 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 1.5em;
+    color: #0A6464;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: .9em;
+    color: #033131;
+}
+
+main {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+hr {
+    border-top: 3px double #E40A3F;
+    width: 95%;
+}
+
+
+/* Header styles */
+header {
+    height: 75px;
+}
+.left-side {
+    padding-left: 10px;
+    display: flex;
+    float: left;
+}
+
+.logo a{
+    font-family: 'Bebas Neue', cursive;
+    color: #E40A3F;
+    font-size: 3.5em; 
+    text-decoration: none;
+}
+
+.right-side {
+    display: flex;
+    float: right;
+}
+
+nav ul {
+    display: flex;
+    padding-right: 10px;
+    list-style: none;
+}
+
+li {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: .9em;
+    color: #033131;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #E40A3F;
+    width: 100%;
+    height: 45px;
+}
+
+footer p {
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.4em;
+    color: #FAF5F7;
+    padding-top: 10px;
+}
+
